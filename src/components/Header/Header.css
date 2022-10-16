@@ -1,1 +1,12 @@
-
+.brandName{
+    color: rgb(70, 29, 165);  
+}
+.navItem{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(29, 122, 165);
+    margin-right: 15px;
+    font-weight: 600;
+}
