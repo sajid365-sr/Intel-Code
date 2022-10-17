@@ -1,30 +1,16 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Route, Routes } from 'react-router-dom';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Blog from './components/Blog/Blog';
-import Header from './components/Header/Header';
-import Home from './components/Home/Home';
-import Statistics from './components/Statistics/Statistics';
-import Topics from './components/Topics/Topics';
+import { routes } from './Router/Router';
 
 function App() {
-
-  
 
 
   return (
     <div>
 
-      <Header></Header>
-
-      <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/topics' element={<Topics></Topics>}></Route>
-        <Route path='/statistics' element={<Statistics></Statistics>}></Route>
-        <Route path='/blog' element={<Blog></Blog>}></Route>
-
-      </Routes>
+      <RouterProvider router={routes}></RouterProvider>
 
     </div>
   );

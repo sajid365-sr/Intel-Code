@@ -6,17 +6,19 @@ import './Header.css'
 
 
 function Header() {
+
+
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className='shadow-lg'>
       <Container>
         <Navbar.Brand className='fw-semibold fs-4 brandName'>Intel Code</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navItem">
             
-            <NavLink className='navItem' to="/topics">Topics</NavLink>
-            <NavLink className='navItem' to="/statistics">Statistics</NavLink>
-            <NavLink className='navItem' to="/blog">Blog</NavLink>
+            <NavLink className= {({isActive}) => isActive ? 'navItem activeNav' : 'navItem'} to="/topics">Topics</NavLink>
+            <NavLink className= {({isActive}) => isActive ? 'navItem activeNav' : 'navItem'}to="/statistics">Statistics</NavLink>
+            <NavLink className= {({isActive}) => isActive ? 'navItem activeNav' : 'navItem'} to="/blog">Blog</NavLink>
             
           </Nav>
         </Navbar.Collapse>
