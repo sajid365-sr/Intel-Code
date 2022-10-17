@@ -24,6 +24,9 @@
     color: rgb(70, 29, 165);
     letter-spacing: 2px;
 }
+.practiceBtn a{
+    text-decoration: none;
+}
 .practiceBtn button{
     border: none;
     background-color: rgb(29, 122, 165);
