@@ -16,3 +16,13 @@
     box-shadow: 5px 5px 8px rgb(158, 158, 158);
     
 }
+
+@media only screen and (max-width:575px){
+    .activeNav{
+        box-shadow: none;
+        border-radius: 0;
+    }
+    .navItem{
+        margin: 15px 0;
+    }
+}

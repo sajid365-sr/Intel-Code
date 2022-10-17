@@ -7,7 +7,7 @@ const Quiz = () => {
     const quiz = useLoaderData().data;
     console.log(quiz);
     return (
-        <div>
+        <div className='quiz-container'>
             <h2>This is a quiz section</h2>
         </div>
     );
