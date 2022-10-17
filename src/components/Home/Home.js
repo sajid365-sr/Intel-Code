@@ -10,7 +10,7 @@ const Home = () => {
   const subjects = useLoaderData().data;
   console.log(subjects);
   return (
-    <div>
+    <div className="home">
       <div className="banner">
         <Container>
         <Banner></Banner>

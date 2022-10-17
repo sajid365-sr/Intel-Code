@@ -2,10 +2,11 @@
 .subject{
     border-radius: 7px;
     box-shadow: 5px 5px 5px #ddd;
+    
 }
 .image{
     margin: 7px;
-    background-color: rgb(149, 119, 214);
+    background-color: rgba(91, 60, 158, 0.692);
     border-radius: 7px;
 }
 .subject img{
@@ -14,7 +15,7 @@
 .practiceBtn{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 0 6px;
 }
 .practiceBtn p{

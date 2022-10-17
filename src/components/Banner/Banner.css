@@ -1,0 +1,27 @@
+
+.bannerImage{
+    background-image:linear-gradient(to right, rgba(255,0,0,0), rgba(165, 29, 165, 0.562)), url('../../../public/banner.png');
+    height: 250px;
+    border-radius: 15px;
+    margin: 40px 0;
+
+}
+.bannerText{
+    color: #ddd;
+    padding: 30px;
+    
+}
+.bannerText h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.bannerText p{
+    font-size: 18px;
+}
+.backQuote{
+    font-size: 25px;
+    color: yellow; 
+}
+.sprit{
+    letter-spacing: 15px;
+}
