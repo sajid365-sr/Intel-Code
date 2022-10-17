@@ -1,6 +1,15 @@
 
 .quiz-container{
-    background-color: grey;
-    width: 50%;
+    
+    width: 55%;
     margin: 60px auto;
+}
+.quiz-container h2{
+    text-align: center;
+    padding: 15px 0;
+    
+}
+.topic-name{
+    color: rgb(70, 29, 165);  
+    letter-spacing: 3px;
 }

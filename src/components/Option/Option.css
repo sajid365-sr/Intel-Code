@@ -1,0 +1,17 @@
+
+.option-container{
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.option-container p{
+    margin: 0px;
+    color: grey;
+}
+.circle{
+    cursor: pointer;
+}
