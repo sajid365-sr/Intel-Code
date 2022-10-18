@@ -7,7 +7,7 @@ export const QuestionContext = createContext([]);
 
 const Quiz = () => {
   const quiz = useLoaderData().data;
-  const { name, questions, total, id } = quiz;
+  const { name, questions } = quiz;
 
   return (
     <div className="quiz-container">
