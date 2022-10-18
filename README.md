@@ -4,7 +4,7 @@ This project was created by `Sajid Sorker`.
 
 ## Project Name: Quiz solving.
 ## Website Name: Intel Code.
-## LiveWebsite Link: `netlify link`
+## LiveWebsite Link: `https://amazing-kangaroo-812f9f.netlify.app/`
 
 ## Some Features
 

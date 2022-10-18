@@ -7,8 +7,7 @@ import './Question.css'
 
 let counter = 0;
 const Question = ({ questionContainer}) => {
-
-  counter += 1;
+counter += 1;
   const { question, options,id,correctAnswer } = questionContainer;
 
   const ansDetails = () =>{
@@ -24,8 +23,8 @@ const Question = ({ questionContainer}) => {
       theme: "light",
       });
 
-      
   }
+
 
   return (
     <div className="question-container">
