@@ -13,3 +13,9 @@
     color: rgb(70, 29, 165);  
     letter-spacing: 3px;
 }
+
+@media only screen and (max-width:575px){
+    .quiz-container{
+        width: 90%;
+    }
+}
