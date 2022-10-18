@@ -18,7 +18,6 @@ const Option = ({ singleOption, qId }) => {
     const circle = e.target;
     const ansText = circle.parentElement.lastChild.innerText;
 
-    // console.log(findQ, qId, ansText);
 
     if (ans === ansText) {
       circle.style.backgroundColor = "orange";
