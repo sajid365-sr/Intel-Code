@@ -6,12 +6,25 @@
     display: flex;
     gap: 15px;
     align-items: center;
+    
+}
+.option-container:hover{
+    background-color: rgb(110, 91, 153);
+    
+}
+.option-container:hover p{
+    color: white;
 }
 
 .option-container p{
     margin: 0px;
     color: grey;
 }
-.circle{
+
+.customCircle{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 50%;
     cursor: pointer;
+    
 }

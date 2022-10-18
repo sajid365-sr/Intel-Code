@@ -8,7 +8,7 @@ import { Container } from "react-bootstrap";
 
 const Home = () => {
   const subjects = useLoaderData().data;
-  console.log(subjects);
+
   return (
     <div className="home">
       <div className="banner">
