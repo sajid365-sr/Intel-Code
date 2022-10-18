@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "./Subject.css";
 
 const Subject = ({ subject }) => {
-  const {logo,name,id,total} = subject;
+  const {logo,name,id} = subject;
   return (
     <div className="subject">
       <div className="image">

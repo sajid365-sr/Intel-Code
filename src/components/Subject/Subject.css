@@ -39,3 +39,22 @@
     gap: 7px;
     align-items: center;
 }
+
+@media only screen and (max-width:575px) {
+    
+    .subject{
+        display: flex;
+        justify-content: space-around;
+    }
+    .image{
+        width: 30%;
+    }
+    .practiceBtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .practiceBtn p{
+        margin-bottom: 10px;
+    }
+}
