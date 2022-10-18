@@ -16,16 +16,15 @@ import "./Statistics.css";
 
 const Statistics = () => {
   const data = useLoaderData().data;
-  
 
   return (
     <div className="statsContainer">
       <div className="stats">
         <h2>Check Analytics</h2>
 
-        
-        <LineChart
-          width={700}
+<ResponsiveContainer height={400} width='90%'>
+<LineChart
+          width={500}
           height={400}
           data={data}
           margin={{
@@ -36,11 +35,20 @@ const Statistics = () => {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" >
-          <Label value="Name of the topics" offset={-3} position="insideBottom" />
+          <XAxis dataKey="name">
+            <Label
+              value="Name of the topics"
+              offset={-1}
+              position="insideBottom"
+            />
           </XAxis>
           <YAxis>
-          <Label value="Quiz number" offset={-3} position="insideLeft" angle='-90' />
+            <Label
+              value="Quiz number"
+              offset={15}
+              position="insideLeft"
+              angle="-90"
+            />
           </YAxis>
           <Tooltip />
           <Legend height={50} />
@@ -52,6 +60,7 @@ const Statistics = () => {
           />
           <Line type="monotone" dataKey="id" stroke="#82ca9d" />
         </LineChart>
+</ResponsiveContainer>
         
       </div>
     </div>
