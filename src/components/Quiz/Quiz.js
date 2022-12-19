@@ -16,11 +16,12 @@ const Quiz = () => {
       </h2>
       <QuestionContext.Provider value={questions}>
         <div>
-          {questions.map((question) => (
+          {questions.map((question, i) => (
             <Question
               key={question.id}
               questionContainer={question}
-              allQuestions={questions}
+              index={i}
+              // allQuestions={questions}
             ></Question>
           ))}
         </div>

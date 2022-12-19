@@ -5,9 +5,9 @@ import { toast, ToastContainer } from "react-toastify";
 import Option from "../Option/Option";
 import './Question.css'
 
-let counter = 0;
-const Question = ({ questionContainer}) => {
-counter += 1;
+
+const Question = ({ questionContainer, index}) => {
+
   const { question, options,id,correctAnswer } = questionContainer;
 
   const ansDetails = () =>{
@@ -30,15 +30,16 @@ counter += 1;
     <div className="question-container">
         <FontAwesomeIcon onClick={ansDetails} className="eye" icon={faEye}></FontAwesomeIcon>
         <ToastContainer />
+  
       <div className="single-question">
         <p>
-          <span className="text-black fs-4">Quiz {counter / 2}:</span> {question}
+          <span className="text-black fs-4">Quiz {index + 1}:</span> {question}
         </p>
       </div>
       <div className="options">
         {
-            options.map(option => <Option 
-                key={option}
+            options.map((option,i) => <Option 
+                key={i}
             singleOption={option}
             qId={id}
             ></Option>)
